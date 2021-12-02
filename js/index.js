@@ -45,6 +45,7 @@ function casingPriceHandle(isClick)
     if(isClick==true)
     {
         newCaseValue = currentcaseValue + 1;
+        document.querySelector(".price2").innerText="59$";
     }
     if(isClick==false && currentcaseValue > 0 )
     {
